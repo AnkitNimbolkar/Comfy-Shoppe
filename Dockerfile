@@ -14,4 +14,4 @@ COPY . /app/
 EXPOSE 8081
 
 # Start http-server
-CMD ["http-server", "-p", "8081", "--spa"]
+CMD ["http-server", "-p", "5501", "--spa"]
