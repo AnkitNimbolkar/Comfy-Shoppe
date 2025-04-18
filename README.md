@@ -24,13 +24,24 @@ An elegant and responsive e-commerce web application built with modern web devel
 ## 📁 Folder Structure
 
 ```bash
-Comfy-Shoppe/
-├── index.html
-├── style.css
-├── app.js
-└── assets/
-    ├── images/
-    └── icons/
+comfy-store/
+├── index.html                 # Main homepage
+├── styles.css
+├── index.js
+├── footer.html
+├── Dockerfile                 # Docker config
+├── .gitignore
+├── README.md                  # Project overview and instructions
+
+├── k8s/                       # Kubernetes configuration
+│   ├── deployment.yaml
+│   └── service.yaml
+
+├── tests/                     # Selenium automation scripts
+│   └── test.js
+
+├── node_modules/              # Installed dependencies (if any)
+└── package.json
 ```
 
 ## 💻 Getting Started
